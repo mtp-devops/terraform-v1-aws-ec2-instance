@@ -1,3 +1,7 @@
+variable "aws_region" {
+  description = "The AWS region to deploy to (e.g. us-east-1)"
+}
+
 variable "create" {
   description = "Whether to create an instance"
   type        = bool
